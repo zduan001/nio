@@ -50,7 +50,7 @@ int main() {
     }
 
     while(1) {
-        // i 个block的call。
+        // 个block的call。
         nready = epoll_wait(efd, ep, OPEN_MAX, -1);
         if (nready == -1) perr_exit("epoll_wait error");
 
