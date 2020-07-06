@@ -7,6 +7,7 @@
 #include <errno.h>
 #include <ctype.h>
 
+
 #define MAX_LINE 8192
 #define SERV_PORT 8000
 #define OPEN_MAX 1024
